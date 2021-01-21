@@ -1,0 +1,156 @@
+/* h1{ */
+    /* font-size: 20px;
+    /* background:yellow; */
+/* } */
+
+
+/* STYLING OF THE BODY  */
+body{
+    /* background-color: black; */
+    background: url('ima.png') no-repeat center center/cover;
+    width: 1400px;
+    height: 800px;
+}
+
+
+/* BACKGROUND IMAGE STYLING  */
+nav{
+    margin: -17px -11px;
+    height: 275px;
+    width: 1400px;
+    /* background-color: black; */
+    background-image: linear-gradient(#000000 ,rgba(0, 0, 0, 0) );
+}
+.logo img{
+    width: 179px ;
+    height: 34px;
+    margin-top: 64px;
+    margin-left: 130px;
+    
+}
+
+/* STYLING THE LIST  */
+li{
+
+    /* List styling in css  */
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 57px ;
+    margin-left: 1139px 
+    /* text */
+
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+   
+    /* text */
+}
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -58px ;
+    margin-left: 1129.5px ;
+    background-color: #4EBFD9;
+    width: 131px;
+    height: 47px;
+    border-radius: 100px;
+    font-size: 16px;
+    /* box-shadow: 0.5px .5px 5px blanchedalmond ; */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    /* font-family: mone; */
+    /* font-family: 'Fraunces', serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: linear-gradient(#000000);
+    /* background-image: url("ima.png"); */
+    
+}
+
+.text h1{
+    display: inline-block;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* border: 2px solid red; */
+    height:162px ;
+    width: 335px;
+    margin: 58px 500px ;
+    font-size: 115px;
+    font-weight: 400;
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.num h1{
+    color: white;
+    height: 84px;
+    width: 92px;
+    font-size: 69px;
+    /* margin: 130px 667px; */
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.num h2{
+    color: white;
+    height: 43px;
+    width: 57px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 50%;
+    margin-left: 203px;
+    margin-top: -111px;
+}
+
+#yt{
+    display: flex;
+    width: 33.75px;
+    height: 23.62px;
+    margin-left: 1115px;
+    margin-top: -71px;
+}
+#ins{
+    display: flex;
+    width: 26.98px;
+    height: 26.98px;
+    margin-left: 1182px;
+    margin-top: -25px;
+}
+#sc{
+    display: flex;
+    width: 26.99px;
+    height: 25.19px;
+    margin-left: 1243px;
+    margin-top: -25px;
+}
+
+.last{
+    background-image: linear-gradient(#00000000,#000000) ;
+    /* background-color: brown; */
+    height: 200px;
+    width: 1400px;
+    margin-left: -10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    margin: -16px -08px;
+}
